@@ -44,4 +44,4 @@ new_dict = {keys: my_dict_1[keys] for keys in keys_list_2}
 keys_unique_list = list(set(my_dict_1).symmetric_difference(my_dict_2))
 new_dict_2 = {keys: (my_dict_1 | my_dict_2)[keys] for keys in keys_unique_list}
 new_dict_2.update({key: [my_dict_1[key],my_dict_2[key]] for key in keys_list})
-print(new_dict_2)
+# print(new_dict_2)
